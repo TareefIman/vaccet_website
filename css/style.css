@@ -1,0 +1,294 @@
+/* -------------*/
+/* BASIC SETUP */
+/*--------------*/
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    
+
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix{zoom: 1;}
+.clearfix:after {
+ content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+/* -------------------*/
+/* REUSABLE COMPONENTS*/
+/*---------------------*/
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+    
+    
+}
+
+.box{
+    padding: 1%;
+    
+}
+
+section{
+    padding: 80px 0px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  padding-right: 30px;
+  display: inline-block;
+   
+}
+
+.column-2 {
+  float: left;
+  width: 33.3%;
+  padding: 5px;
+  padding-right: 30px;
+  display: inline-block;
+}
+
+.column-3 {
+  float: right;
+  width: 30%;
+  display: inline-block;
+  padding-right: 30px;
+  padding
+}
+/* -------------------*/
+/* HEADING COMPONENTS*/
+/*---------------------*/
+
+h1,
+h2,
+h3,
+h4{
+   
+    font-weight: 300;
+    text-transform: uppercase;
+    
+}
+
+h1{
+     margin-top:0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+     letter-spacing: 1.5px;
+}
+
+h2{
+   font-size: 180%;
+    word-spacing: 3.5px;
+    text-align: center;
+    margin-bottom: 30px;
+     letter-spacing: 1.5px;
+}
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: #29bdea;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h3{
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+h4{
+    font-size: 80%;
+}
+.span{
+    font-size: 100%;
+    margin-bottom: 15px;
+}
+/* -------------------*/
+/* MAIN NAV             */
+/*---------------------*/
+
+.main-nav{
+    float: right;
+    list-style:none;
+    margin-top:45px;
+}
+.logo{
+    height: 80px;
+    width: 125px;
+    float:left;
+    border-radius: 5%;
+    margin-top: 10px;
+}
+
+.main-nav li{
+ display:inline-block;
+    margin-left:40px;
+   margin-bottom: 30px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+ border-bottom: 2px solid #4a4949;
+}
+
+.video{
+ background-color: #dae3e1;
+ margin: 0 auto;
+ background-size: cover;
+}
+
+
+
+
+/* -------------------*/
+/*value preposition section*/
+/*---------------------*/
+.section-valuepreposition{
+ padding: 10px;
+ text-align: center;
+ background-color: #9d8c8c;
+}
+
+/* -------------------*/
+/* inpirasi section   */
+/*---------------------*/
+.section-inspirasi{
+   background-color: #efefef;
+   padding: 30px;
+}
+
+.steps-intro{
+margin-top: 30px;
+}
+
+.patients{
+width: 100%;
+height: auto;
+padding-left: 50px;
+}
+
+/* -------------------*/
+/* customer testimonial section*/
+/*---------------------*/
+.section-customertestimonial{
+    padding: 20px 0px 0px 0px;
+}
+
+
+
+/* -------------------*/
+/* ciri-ciri section*/
+/*---------------------*/
+.section-step{
+background-color: #f5f5f5;
+padding-top: 22px;
+}
+
+.steps-box{
+   margin-top: 30px;
+     
+}
+
+.steps-box:first-child{
+    text-align: right;
+    margin-top: 30px;
+    
+}
+
+.steps-box:last-child{
+   padding-left: 3%;
+    margin-top: 70;
+}
+
+.app-screen{
+    width: 102%
+}
+
+.work-step{
+    margin-bottom: 50px;
+    
+}
+
+.work-step:last-of-type{
+margin-bottom: 80px;
+}
+
+.work-step div {
+    color: #29bdea;
+    border: 2px solid #5894a7;
+    display:inline-block;
+    border-radius: 50%;
+    height: 50px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+}
+
+/* -------------------*/
+/* members  section*/
+/*---------------------*/
+.section-team{
+    text-align: center;
+    
+}
+
+.members{
+    border-radius: 50%;
+}
+
+.upm{
+    padding-top: 25px;
+    padding-right: 5px;
+}
+/* -------------*/
+/*--FOOTER---*/
+/*--------------*/
+
+footer{
+    padding: 50px;
+    font-size: 80%;
+    bottom: 0;
+    background-color: #333;
+    
+}
+
+.footer-nav{
+   display: inline-block;
+   width: 100%
+}
+
