@@ -120,6 +120,7 @@ h3{
 
 h4{
     font-size: 80%;
+    padding-bottom: 20px
 }
 .span{
     font-size: 100%;
@@ -273,22 +274,81 @@ margin-bottom: 80px;
 
 .upm{
     padding-top: 25px;
-    padding-right: 5px;
+    padding-right: 5px; 
 }
 /* -------------*/
 /*--FOOTER---*/
 /*--------------*/
 
 footer{
-    padding: 50px;
+    padding: 5px;
     font-size: 80%;
     bottom: 0;
     background-color: #333;
+    width: 100;
+    clear: both;
     
 }
 
 .footer-nav{
    display: inline-block;
-   width: 100%
+   width: 100%;
+    list-style: none;
+    float: left;
+    margin-right: 0;
+}
+
+.social-links{
+    list-style: none;
+    float: right;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 80%;
+} 
+
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.social-links li a:link,
+.social-links li a:visited{
+    font-size: 160%
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-instagram{
+    -webkit-transition: color 0.28s;
+    transition: color 0.28s;
+}
+
+.ion-social-facebook:hover{
+    color: #3b5988
+}
+
+.ion-social-twitter:hover{
+    color: #80aced
+}
+
+
+.ion-social-instagram:hover{
+    color: #517fa4
+}
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
 }
 
