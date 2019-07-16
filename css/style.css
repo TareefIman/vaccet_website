@@ -12,7 +12,6 @@
 
 html,
 body {
-    background-color: #fff;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
@@ -29,6 +28,10 @@ body {
     height: 0;
     visibility: hidden;
 }
+
+.ul{
+    color: azure
+}
 /* -------------------*/
 /* REUSABLE COMPONENTS*/
 /*---------------------*/
@@ -40,6 +43,9 @@ body {
     
 }
 
+.header{
+    background-color: #f6f6f6;
+}
 .box{
     padding: 1%;
     
@@ -58,20 +64,42 @@ section{
    
 }
 
-.column-2 {
-  float: left;
-  width: 33.3%;
-  padding: 5px;
-  padding-right: 30px;
-  display: inline-block;
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    margin-left: 120px;
 }
 
-.column-3 {
-  float: right;
-  width: 30%;
-  display: inline-block;
-  padding-right: 30px;
-  padding
+.btn-full:link,
+.btn-full:visited{
+    background-color: #57cbef;
+     border: 1px solid #38c2ec;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid #887565;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #355ffa;
+}
+
+.btn-full:hover,
+.btn-full:active{
+     border: 1px solid #2452fa;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    border: 1px solid #cf6d17;
 }
 /* -------------------*/
 /* HEADING COMPONENTS*/
@@ -91,7 +119,7 @@ h1{
      margin-top:0;
     margin-bottom: 20px;
     color: #fff;
-    font-size: 240%;
+    font-size: 210%;
     word-spacing: 4px;
      letter-spacing: 1.5px;
 }
@@ -122,6 +150,7 @@ h4{
     font-size: 80%;
     padding-bottom: 20px
 }
+
 .span{
     font-size: 100%;
     margin-bottom: 15px;
@@ -134,13 +163,14 @@ h4{
     float: right;
     list-style:none;
     margin-top:45px;
+    
 }
 .logo{
-    height: 80px;
-    width: 125px;
+    height: 70px;
+    width: 115px;
     float:left;
     border-radius: 5%;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
 .main-nav li{
@@ -161,32 +191,36 @@ h4{
 
 .main-nav li a:hover,
 .main-nav li a:active{
- border-bottom: 2px solid #4a4949;
+    border-bottom: 2px solid #7395ae;
 }
 
-.video{
- background-color: #dae3e1;
- margin: 0 auto;
- background-size: cover;
+/* -------------------*/
+/*video section*/
+/*---------------------*/
+.video-section{
+    padding: 0;
 }
 
-
-
-
+.center {
+    margin: 0 auto; 
+    width: 1350px; 
+    height: 420px;
+    display: block;
+}
 /* -------------------*/
 /*value preposition section*/
 /*---------------------*/
 .section-valuepreposition{
  padding: 10px;
  text-align: center;
- background-color: #9d8c8c;
+ background-color: #7793fc;
 }
 
 /* -------------------*/
 /* inpirasi section   */
 /*---------------------*/
 .section-inspirasi{
-   background-color: #efefef;
+   background-color: #e4e6eb;
    padding: 30px;
 }
 
@@ -205,6 +239,7 @@ padding-left: 50px;
 /*---------------------*/
 .section-customertestimonial{
     padding: 20px 0px 0px 0px;
+    background-color: #eeeff2;
 }
 
 
@@ -260,22 +295,7 @@ margin-bottom: 80px;
     margin-right: 25px;
 }
 
-/* -------------------*/
-/* members  section*/
-/*---------------------*/
-.section-team{
-    text-align: center;
-    
-}
 
-.members{
-    border-radius: 50%;
-}
-
-.upm{
-    padding-top: 25px;
-    padding-right: 5px; 
-}
 /* -------------*/
 /*--FOOTER---*/
 /*--------------*/
@@ -287,6 +307,7 @@ footer{
     background-color: #333;
     width: 100;
     clear: both;
+    color: #aaa2a2
     
 }
 
