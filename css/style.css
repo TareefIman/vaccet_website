@@ -6,9 +6,12 @@
     padding: 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    
-
 }
+
+html {
+scroll-behavior: smooth;
+}
+
 
 html,
 body {
@@ -39,8 +42,12 @@ body {
 .row {
     max-width: 1140px;
     margin: 0 auto;
-    
-    
+}
+
+.center{   
+    margin: 0 auto; 
+    width: 400px; 
+    display: block;
 }
 
 .header{
@@ -111,7 +118,7 @@ h3,
 h4{
    
     font-weight: 300;
-    text-transform: uppercase;
+
     
 }
 
@@ -120,16 +127,15 @@ h1{
     margin-bottom: 20px;
     color: #fff;
     font-size: 210%;
-    word-spacing: 4px;
-     letter-spacing: 1.5px;
+    word-spacing: 1.5px;
 }
 
 h2{
-   font-size: 180%;
-    word-spacing: 3.5px;
+   font-size: 175%;
+    word-spacing: 4px;
     text-align: center;
-    margin-bottom: 30px;
-     letter-spacing: 1.5px;
+    margin-bottom: 23px;
+     letter-spacing: 1.2px;
 }
 h2:after{
     display: block;
@@ -148,7 +154,8 @@ h3{
 
 h4{
     font-size: 80%;
-    padding-bottom: 20px
+    padding-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .span{
@@ -194,6 +201,9 @@ h4{
     border-bottom: 2px solid #7395ae;
 }
 
+.statement{
+    padding-top: 13px;
+}
 /* -------------------*/
 /*video section*/
 /*---------------------*/
@@ -250,6 +260,7 @@ padding-left: 50px;
 .section-step{
 background-color: #f5f5f5;
 padding-top: 22px;
+    
 }
 
 .steps-box{
@@ -290,6 +301,7 @@ margin-bottom: 80px;
     width: 55px;
     text-align: center;
     padding: 5px;
+   margin-bottom: 90px;
     float: left;
     font-size: 150%;
     margin-right: 25px;
