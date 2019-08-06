@@ -48,6 +48,7 @@ body {
     margin: 0 auto; 
     width: 400px; 
     display: block;
+    max-width: 1140px;
 }
 
 .header{
@@ -301,7 +302,7 @@ margin-bottom: 80px;
     width: 55px;
     text-align: center;
     padding: 5px;
-   margin-bottom: 90px;
+   margin-bottom: 100px;
     float: left;
     font-size: 150%;
     margin-right: 25px;
