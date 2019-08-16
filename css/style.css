@@ -337,7 +337,7 @@ footer{
 .social-links li {
     display: inline-block;
     margin-right: 20px;
-    font-size: 80%;
+    font-size: 100%;
 } 
 
 .social-links li:last-child {
