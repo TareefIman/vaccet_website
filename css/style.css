@@ -153,9 +153,9 @@ h3{
 }
 
 h4{
-    font-size: 80%;
+    font-size: 85%;
     padding-bottom: 20px;
-    text-transform: uppercase;
+   
 }
 
 .span{
@@ -366,16 +366,16 @@ footer{
 }
 
 .ion-social-facebook:hover{
-    color: #3b5988
+    color: #4267B2
 }
 
 .ion-social-twitter:hover{
-    color: #80aced
+    color: #38A1F3
 }
 
 
 .ion-social-instagram:hover{
-    color: #517fa4
+    color: #E1306C;
 }
 footer p {
     color: #888;
